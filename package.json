@@ -4,7 +4,7 @@
   "description": "NPM module to verifiy JWT signatures",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -u bdd -R spec"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,10 @@
   "author": "Andreas Mohrhard <andreas@mohrhard.eu>",
   "license": "Apache",
   "readmeFilename": "README.md",
-  "gitHead": "84d5d3eb47f6ab760fe8e237acfcec4241c7b91f"
+  "gitHead": "84d5d3eb47f6ab760fe8e237acfcec4241c7b91f",
+  "devDependencies": {
+    "should": "~1.2.2",
+    "async": "~0.2.8",
+    "request": "~2.21.0"
+  }
 }
